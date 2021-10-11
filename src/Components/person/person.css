@@ -1,0 +1,35 @@
+body{
+     align-items: center !important;
+}
+.person{
+     width: 400px;
+     border: 1px solid rgb(70, 58, 241);
+     border-radius: 1em;
+     margin: 1em;
+     padding: 1em;
+     background-color: rgb(228, 215, 215);
+     display: inline-block;
+     margin-left: 0%;   
+}
+.inputStyle{
+border-radius: 5px;
+margin-left: 10px;
+padding: 10px;
+font-weight: bold;
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+}
+.inputStyle:focus{
+     background-color: rgb(228, 248, 187);
+}
+.buttonStyle{
+border-radius: 5px;
+padding: 10px;
+font-weight: bold;
+font-family: 'Courier New', Courier, monospace;
+cursor: pointer;
+}
+.buttonStyle:hover{
+background-color: salmon;
+color: white;
+}
