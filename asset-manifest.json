@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/RezaSoltanmoradi/react-training.git/static/css/main.a12c1d6b.chunk.css",
+    "main.js": "/RezaSoltanmoradi/react-training.git/static/js/main.a35e0bd4.chunk.js",
+    "main.js.map": "/RezaSoltanmoradi/react-training.git/static/js/main.a35e0bd4.chunk.js.map",
+    "runtime-main.js": "/RezaSoltanmoradi/react-training.git/static/js/runtime-main.7eca5c2b.js",
+    "runtime-main.js.map": "/RezaSoltanmoradi/react-training.git/static/js/runtime-main.7eca5c2b.js.map",
+    "static/css/2.2b9c9df4.chunk.css": "/RezaSoltanmoradi/react-training.git/static/css/2.2b9c9df4.chunk.css",
+    "static/js/2.89469bbd.chunk.js": "/RezaSoltanmoradi/react-training.git/static/js/2.89469bbd.chunk.js",
+    "static/js/2.89469bbd.chunk.js.map": "/RezaSoltanmoradi/react-training.git/static/js/2.89469bbd.chunk.js.map",
+    "index.html": "/RezaSoltanmoradi/react-training.git/index.html",
+    "static/css/2.2b9c9df4.chunk.css.map": "/RezaSoltanmoradi/react-training.git/static/css/2.2b9c9df4.chunk.css.map",
+    "static/css/main.a12c1d6b.chunk.css.map": "/RezaSoltanmoradi/react-training.git/static/css/main.a12c1d6b.chunk.css.map",
+    "static/js/2.89469bbd.chunk.js.LICENSE.txt": "/RezaSoltanmoradi/react-training.git/static/js/2.89469bbd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7eca5c2b.js",
+    "static/css/2.2b9c9df4.chunk.css",
+    "static/js/2.89469bbd.chunk.js",
+    "static/css/main.a12c1d6b.chunk.css",
+    "static/js/main.a35e0bd4.chunk.js"
+  ]
+}
