@@ -10,7 +10,7 @@ class Perosn extends Component {
     render() {
         const { fullName, deleted, Changed } = this.props;
         return (
-            <div className="card text-black bg-info mt-3 col-5 d-lg-inline-block mr-2 mx-lg-2 mx-auto">
+            <div className="card text-black bg-info mt-3 col-10 col-md-5 d-lg-inline-block mr-2 mx-lg-2 mx-auto">
                 <div className="card-body text-center ">
                     <h4 className="d-black ">{`${fullName}`}</h4>
                     <div className="input-group justify-content-center">
@@ -31,7 +31,7 @@ class Perosn extends Component {
                     </div>
                 </div>
             </div>
-        )
+        );
     }
 }
 Perosn.propTypes = {

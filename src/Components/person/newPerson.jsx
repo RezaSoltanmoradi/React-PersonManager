@@ -4,11 +4,15 @@ import { Button } from 'react-bootstrap';
 import SimpleContext from '../../context/simpleContext';
 
 const NewPerson = () => {
-
     const FocusInput = useRef(null);
     useEffect(() => {
-        FocusInput.current.focus();
-    });
+        var timeout = setTimeout(() => {
+            FocusInput.current.focus();
+        }, 300);
+        return () => {
+            clearTimeout(timeout);
+        };
+    }, []);
 
     const context = useContext(SimpleContext);
     const { handlenewPerson, setPerson } = context;
@@ -19,7 +23,7 @@ const NewPerson = () => {
                 className="d-flex justify-content-center"
                 onSubmit={handlenewPerson}
             >
-                <div className="input-group w-25">
+                <div className="input-group w-50">
                     <input
                         ref={FocusInput}
                         className="form-control text-center"

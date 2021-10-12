@@ -7,9 +7,7 @@ import SimpleContext from './context/simpleContext';
 import NewPerson from './Components/person/newPerson';
 
 class App extends Component {
-    constructor() {
-        super();
-    }
+    
     toggleShowHeader = createRef();
     // toggleShowPeople = createRef();
     state = {
